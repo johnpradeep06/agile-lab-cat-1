@@ -8,6 +8,6 @@ def encrypt(text, shift=3):
         else:
             result += char
     return result
-
+#version 1
 def decrypt(text, shift=3):
     return encrypt(text, -shift)
